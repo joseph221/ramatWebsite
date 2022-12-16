@@ -33,7 +33,7 @@
         .masthead {
             position: relative;
             padding-bottom: 15px;
-            background: rgb(240,83,49)
+            background: rgb(58,129,5)
         }
 
         .masthead:before {
@@ -44,7 +44,7 @@
             width: 100%;
             height: 15px;
             opacity: .3;
-            background: url({{ asset('assets/images/patten.svg') }}) 50% -3px repeat
+            background: url(https://www.buildon.org/wp-content/themes/nmc_buildon/assets/pattern.svg) 50% -3px repeat
         }
 
         .masthead .image-auto {
@@ -158,7 +158,6 @@
     <style>
 		@font-face {
 			font-family: 'HelloSunshineMarker';
-			src: url(https://www.buildon.org/wp-content/themes/nmc_buildon/css/fonts/HelloSunshineMarker-400.woff2), url(https://www.buildon.org/wp-content/themes/nmc_buildon/css/fonts/HelloSunshineMarker-400.woff);
 			font-weight: 400;
 			font-style: normal;
 			font-display: fallback;
@@ -843,7 +842,7 @@
 			width: 100%;
 			height: 50px;
 			color: #202020;
-			background: #fff url(https://www.buildon.org/wp-content/themes/nmc_buildon/assets/select-arrow.svg) calc(100% - 15px) 50% no-repeat;
+			
 			background-size: 15px 9px;
 			border: 1px solid #cecfce;
 			border-radius: 0;
@@ -922,7 +921,7 @@
 			width: 100%;
 			height: 50px;
 			color: #202020;
-			background: #fff url(https://www.buildon.org/wp-content/themes/nmc_buildon/assets/select-arrow.svg) calc(100% - 15px) 50% no-repeat;
+			
 			background-size: 15px 9px;
 			border: 1px solid #cecfce;
 			border-radius: 0;
@@ -1007,7 +1006,6 @@
 			width: 100%;
 			height: 50px;
 			color: #202020;
-			background: #fff url(https://www.buildon.org/wp-content/themes/nmc_buildon/assets/select-arrow.svg) calc(100% - 15px) 50% no-repeat;
 			background-size: 15px 9px;
 			border: 1px solid #cecfce;
 			border-radius: 0;
@@ -1964,7 +1962,6 @@
 				max-width: 100px;
 				padding: 0 25px 0 10px;
 				font-size: 11px;
-				background: #fff url(http://buildon.nmc/wp-content/themes/nmc_buildon/assets/select-arrow.svg) calc(100% - 10px) 50% no-repeat;
 				background-size: 10px 6px
 			}
 		}
@@ -2466,8 +2463,7 @@
 			top: 10px;
 			width: 16px;
 			height: 12px;
-			background: url(https://www.buildon.org/wp-content/themes/nmc_buildon/assets/check-icon.svg) 0 0 no-repeat
-		}
+			
 
 		.gutenberg>.bound-narrow>ol {
 			padding-left: 25px
@@ -4232,10 +4228,10 @@
                                 </a>
                             </li>
                             <li class="mainNav_li -depth-1 " role="none">
-                                <a href="#" role="menuitem" class="mainNav_a -depth-1"
+                                <a href="/#wedo" role="menuitem" class="mainNav_a -depth-1"
                                     aria-haspopup="true" aria-expanded="false">Programes</a>
                                 <button class="mainNav_subnav-toggle -depth-1" aria-label="subnav toggle" tabindex="-1">
-                                    <img loading="lazy" src="./Our Work _ buildOn_files/nav-arrow.svg"
+                                    <img loading="lazy" src=""
                                         alt="Subnav Toggle">
                                 </button>
                                 <div class="mainNav_subnav">
@@ -4243,7 +4239,7 @@
                                         <div class="mainNav_subnav-image">
                                             <div class="image-auto" style="padding-top: 61.864406779661%">
                                                 <img width="236" height="146" alt="" loading="lazy"
-                                                    src="./Our Work _ buildOn_files/1-OurWork-Masthead-1--256.webp">
+                                                    src="{{ asset('assets/images/what-we-do.png') }}">
                                             </div>
                                         </div>
                                         <div class="mainNav_subnav-title">
@@ -4277,11 +4273,11 @@
                                 </div>
                             </li>
                             <li class="mainNav_li -depth-1" role="none">
-                                <a href="#" role="menuitem"
+                                <a href="/events" role="menuitem"
                                     class="mainNav_a -depth-1" aria-haspopup="true" aria-expanded="false">Get
                                     Involved</a>
                                 <button class="mainNav_subnav-toggle -depth-1" aria-label="subnav toggle" tabindex="-1">
-                                    <img loading="lazy" src="./Our Work _ buildOn_files/nav-arrow.svg"
+                                    <img loading="lazy" src=""
                                         alt="Subnav Toggle">
                                 </button>
                                 <div class="mainNav_subnav">
@@ -4289,12 +4285,12 @@
                                         <div class="mainNav_subnav-image">
                                             <div class="image-auto" style="padding-top: 61.864406779661%">
                                                 <img width="236" height="146" alt="" loading="lazy"
-                                                    src="./Our Work _ buildOn_files/ServicePartners-5-Immersion4-Trek--256.webp">
+                                                    src="{{ asset('assets/images/getTogeter1.png') }}">
                                             </div>
                                         </div>
                                         <div class="mainNav_subnav-title">
                                             <a class="mainNav_subnav-title_link"
-                                                href="#" aria-haspopup="true">Get
+                                                href="/events" aria-haspopup="true">Get
                                                 Involved
                                             </a>
                                         </div>
@@ -4308,12 +4304,7 @@
 
                                         </li>
                                         <li class="mainNav_li -depth-2 -end" role="none">
-                                            <a href="#" role="menuitem"
-                                                class="mainNav_a -depth-2" tabindex="-1">Partner with us
-                                            </a>
-                                        </li>
-                                        <li class="mainNav_li -depth-2 -end" role="none">
-                                            <a href="#"
+                                            <a href="{{ route('events') }}"
                                                 role="menuitem" class="mainNav_a -depth-2" tabindex="-1">Events
                                             </a>
                                         </li>
@@ -4332,7 +4323,7 @@
                                         <div class="mainNav_subnav-image">
                                             <div class="image-auto" style="padding-top: 61.864406779661%">
                                                 <img width="236" height="146" alt="" loading="lazy"
-                                                    src="{{ asset('assets/images/downloads/studies.jpg') }}">
+                                                    src="{{ asset('assets/images/best-about-us-pages.jpg') }}">
                                             </div>
                                         </div>
                                         <div class="mainNav_subnav-title">
@@ -4354,8 +4345,8 @@
                                             </a>
                                         </li>
                                         <li class="mainNav_li -depth-2 -end" role="none">
-                                            <a href="#" role="menuitem"
-                                                class="mainNav_a -depth-2" tabindex="-1">History
+                                            <a href="#patners" role="menuitem"
+                                                class="mainNav_a -depth-2" tabindex="-1">Patner with us
                                             </a>
                                         </li>
                                     </ul>

@@ -19,6 +19,8 @@ class CreateEventsTable extends Migration
             $table->date('date');
             $table->string('image');
             $table->text('desc');
+            $table->text('place');
+            $table->text('cost');
             $table->timestamps();
         });
     }

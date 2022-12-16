@@ -6,43 +6,48 @@
         </div>
         <div class="row contact-rooo no-margin">
             <div class="container">
+               
                 <div class="row">
-                    <div style="padding:20px" class="col-sm-7">
-                        <h2 >Contact Form</h2> <br>
-                        <div class="row cont-row">
-                            <div  class="col-sm-3"><label>Enter Name </label><span>:</span></div>
-                            <div class="col-sm-8"><input type="text" placeholder="Enter Name" name="name" class="form-control input-sm"  ></div>
+                 
+                        <div style="padding:20px" class="col-sm-7">
+                            <h2 >Contact Form</h2> <br>
+                            <form action="/sendMail" method="post">
+                                @csrf
+                                <div class="row cont-row">
+                                    <div  class="col-sm-3"><label>Enter Name :</div>
+                                    <div class="col-sm-8"><input type="text" placeholder="Enter Name" name="name" class="form-control input-sm"  ></div>
+                                </div>
+                                <div  class="row cont-row">
+                                    <div  class="col-sm-3"><label>Email Addres:</div>
+                                    <div class="col-sm-8"><input type="email" name="email" placeholder="Enter Email Address" class="form-control input-sm"  ></div>
+                                </div>
+                                <div  class="row cont-row">
+                                    <div  class="col-sm-3"><label>Mobile Number:</div>
+                                    <div class="col-sm-8"><input type="text" name="phone" placeholder="Enter Mobile Number" class="form-control input-sm"  ></div>
+                                </div>
+                                <div  class="row cont-row">
+                                    <div  class="col-sm-3"><label>Enter Messa:</div>
+                                    <div class="col-sm-8">
+                                        <textarea rows="5" placeholder="Enter Your Message" name="message" class="form-control input-sm"></textarea>
+                                    </div>
+                                </div>
+                                <div style="margin-top:10px;" class="row">
+                                    <div style="padding-top:10px;" class="col-sm-3"><label></label></div>
+                                    <div class="col-sm-8">
+                                        <button class="btn btn-primary btn-sm bg-success">Send Message</button>
+                                    </div>
+                                </div>
+                        </form>
                         </div>
-                        <div  class="row cont-row">
-                            <div  class="col-sm-3"><label>Email Address </label><span>:</span></div>
-                            <div class="col-sm-8"><input type="text" name="name" placeholder="Enter Email Address" class="form-control input-sm"  ></div>
-                        </div>
-                        <div  class="row cont-row">
-                            <div  class="col-sm-3"><label>Mobile Number</label><span>:</span></div>
-                            <div class="col-sm-8"><input type="text" name="name" placeholder="Enter Mobile Number" class="form-control input-sm"  ></div>
-                        </div>
-                        <div  class="row cont-row">
-                            <div  class="col-sm-3"><label>Enter Message</label><span>:</span></div>
-                            <div class="col-sm-8">
-                                <textarea rows="5" placeholder="Enter Your Message" class="form-control input-sm"></textarea>
-                            </div>
-                        </div>
-                        <div style="margin-top:10px;" class="row">
-                            <div style="padding-top:10px;" class="col-sm-3"><label></label></div>
-                            <div class="col-sm-8">
-                                <button class="btn btn-primary btn-sm">Send Message</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
+                   
+                    <div class="col-sm-4">
                         <div style="margin:50px" class="serv">
                             <h2 style="margin-top:10px;">Address</h2>
-                        Antonya Street, <br>
-                            23/H-2, Building<br>
-                            TA, AUS District<br>
-                            Phone:+91 9159669599<br>
-                            Email:support@smarteyeapps.com<br>
-                            Website:www.smarteyeapps.com.com<br>
+                            Manor hotel second floor, <br>
+                            near moshi,Nairobi road,<br>
+                            Arusha,<br>
+                            Phone: +255 (782) 189778<br>
+                            Email: jjamalspring60@gmail.com<br>
                         </div>
                     </div>
                 </div>

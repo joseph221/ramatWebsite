@@ -77,7 +77,24 @@ Admin Events
                         </span>
                     @enderror
               </div>
-
+              <div class="form-group">
+                <label for="">Place</label>
+                <input type="text" class="form-control" value="{{ old('place') }}" id="" name="place" placeholder="Enter news title">
+                @error('place')
+                        <span class="invalid-feedback text-danger" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+              </div>
+              <div class="form-group">
+                <label for="">Cost</label>
+                <input type="number" class="form-control" value="{{ old('cost') }}" id="" name="cost" placeholder="Enter news title">
+                @error('cost')
+                        <span class="invalid-feedback text-danger" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+              </div>
             <!-- /.box-body -->
 
             <div class="box-footer">
@@ -109,6 +126,8 @@ Admin Events
                               <th>Title</th>
                               <th>Description</th>
                               <th>Date</th>
+                              <th>PLACE</th>
+                              <th>COST</th>
                               <th>Action</th>
                             </tr>
                             </thead>
@@ -119,6 +138,8 @@ Admin Events
                                     <td>{{ $dt->title }}</td>
                                     <td><p>{{ $dt->desc }}</p></td>
                                     <td>{{ $dt->date }}</td>
+                                    <td><p>{{ $dt->place }}</p></td>
+                                    <td>{{ $dt->cost }}</td>
                                     <td>
                                         <div class="float-rigth">
                                             <a href="{{ route('adminevent.edit',$dt->id) }}" class="btn btn-sm btn-success">edit</a>

@@ -48,7 +48,14 @@ Update Event
                     <label for="">Description</label>
                     <textarea name="desc" class="form-control" value="{{ old('desc') }}" id="" cols="30" rows="4">{{ $data->desc }}</textarea>
                   </div>
-    
+                  <div class="form-group">
+                    <label for="">Place</label>
+                    <input type="text" class="form-control" value="{{ $data->place }}" id="" name="place" placeholder="Enter news title">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Cost</label>
+                    <input type="number" class="form-control" value="{{ $data->cost }}" id="" name="cost" placeholder="Enter news title">
+                  </div>
             <!-- /.box-body -->
 
             <div class="box-footer">

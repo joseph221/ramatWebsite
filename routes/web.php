@@ -22,6 +22,8 @@ Route::get('/about',[MainController::class,'about'])->name('about');
 Route::get('/contact',[MainController::class,'contactUs'])->name('contact');
 Route::get('/gallary',[MainController::class,'gallary'])->name('gallary');
 Route::get('/news',[MainController::class,'news'])->name('news');
+Route::get('/events',[MainController::class,'events'])->name('events');
+Route::post('/sendMail',[MainController::class,'sendMail'])->name('sendMail');
 Route::get('/waste',[MainController::class,'waste_manage'])->name('waste');
 Route::get('/women_empower',[MainController::class,'women_empowerment'])->name('women_empower');
 Route::get('/young_generation',[MainController::class,'young_generation'])->name('young_generation');

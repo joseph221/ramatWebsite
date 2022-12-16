@@ -42,7 +42,9 @@ class EventController extends Controller
             'title'=> $request->title,
             'date'=> $request->date,
             'image'=> $imageName,
-            'desc'=> $request->desc
+            'desc'=> $request->desc,
+            'place'=> $request->place,
+            'cost'=> $request->cost
         ]);
         return back();
     }

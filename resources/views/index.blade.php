@@ -13,7 +13,8 @@
         background-size: cover;
         /* animation: ani1 24s ease-out forwards; */
         /* background-image: url({{ url('assets/images/RIVERS2.jpg') }}); */
-        background-color: rgb(44,103,42)
+        background-color: rgb(129,171,141);
+        background: url(https://www.buildon.org/wp-content/themes/nmc_buildon/assets/pattern.svg) 50% -3px repeat
     }
     .patten{
         z-index: 0;
@@ -215,33 +216,10 @@
     <div class="masthead">
        
         <div class="try">
-            <svg width="100%" height="100%" class="patten">
-   
-                <!-- Define the pattern -->
-                <pattern id="pattern-chevron" x="0" y="0" patternUnits="userSpaceOnUse" width="100" height="180" viewBox="0 0 10 18"> 
-                  
-                  <!-- Group the chevron shapes -->
-                  <g id="chevron">
-                    <!-- Chevron consists of two shapes, a left and a right to form a `v` -->
-                    <!-- We'll apply the `fill` in the CSS for flexibility -->
-                    <path class="left" d="M0 0l5 3v5l-5 -3z" />
-                    <path class="right" d="M10 0l-5 3v5l5 -3" />
-                  </g>
-                 
-                  <!-- Apply the shapes -->
-                  <!-- `y="9"` narrows the space between rows  -->
-                  <use x="0" y="9" xlink:href="#chevron" />
-                
-                </pattern>
-                
-                <!-- The canvas for our pattern -->
-                <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-chevron)" />
-               
-             </svg>
             <div class="home-page">
                 <div class="row">
                     <div class="col">
-                        <video autoplay loop  plays-inline class="back-video">
+                        <video autoplay loop muted plays-inline class="back-video">
                             <source  src="{{ asset('assets/images/video2.mp4') }}" type="video/mp4">
                         </video>
                         <div class="wrap-text">
@@ -362,7 +340,7 @@
             </div>
         </div>
     </div>
-    <div class="wedo">
+    <div class="wedo" id="wedo">
         <center><h4 style="color: rgb(162,216,35)">What We Do</h4></center>
         <section class="prog-section pt-2">
             <div class="row p-5">
@@ -418,6 +396,40 @@
             </div>
         </section>
     </div>
+
+    <section>
+        <center><h4 style="color: rgb(162,216,35)">Patner With Us</h4></center>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="imgP">
+                        <a href="https://cordstanzania.org/">
+                            <img src="{{ asset('assets/images/CORD.png') }}" height="200" width="400" alt="" srcset="">
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="imgP">
+                        <a href="https://aylftanzania.org/">
+                            <img src="{{ asset('assets/images/AYLF-Tanzania-Logo.jpg') }}" alt="" srcset="">
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="imgP">
+                        <a href="https://cordstanzania.org/">
+                            <img src="{{ asset('assets/images/CORD.png') }}" height="200" width="400" alt="" srcset="">
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
 @endsection
 
    
