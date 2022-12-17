@@ -36,6 +36,10 @@ class AdminController extends Controller
         return view('Admin.profile');
     }
 
+    function addUser(){
+        return view('Admin.addUser');
+    }
+
     function updateInfo(Request $request){
 
         $validator = Validator::make($request->all(),[

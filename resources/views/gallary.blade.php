@@ -27,52 +27,87 @@
     
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{ asset('assets/images/logo.jpeg') }}" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="{{ asset('assets/images/logo.jpeg') }}" alt="" class="img-fluid">
+                        <a href="{{ url('assets/images/sample_2.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/sample_2.jpg') }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
     
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/pic3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/gallery/pic3.jpg" alt="" class="img-fluid">
+                        <a href="{{ url('assets/images/youngrangers.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/youngrangers.jpg') }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
     
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/pic4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/gallery/pic4.jpg" alt="" class="img-fluid">
+                        <a href="{{ url('assets/images/ontour2.jpeg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/ontour2.jpeg') }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
     
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/pic5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/gallery/pic5.jpg" alt="" class="img-fluid">
+                        <a href="{{ url('assets/images/freeriver.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/freeriver.jpg') }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
     
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/pic6.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/gallery/pic6.jpg" alt="" class="img-fluid">
+                        <a href="{{ url('assets/images/sonsoil.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/sonsoil.jpg') }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
     
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/pic7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="assets/img/gallery/pic7.jpg" alt="" class="img-fluid">
+                        <a href="{{ url('assets/images/womenemp.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/womenemp.jpg') }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
     
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="{{ url('assets/images/school.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/school.jpg') }}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="{{ url('assets/images/sample_2.jpg') }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ url('assets/images/greenschool.jpg') }}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/pic8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="assets/img/gallery/pic8.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/pic8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="assets/img/gallery/pic8.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/pic8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="assets/img/gallery/pic8.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
                         <a href="assets/img/gallery/pic8.jpg" class="gallery-lightbox" data-gall="gallery-item">

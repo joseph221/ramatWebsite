@@ -31,5 +31,6 @@ Route::get('/healthy_ev_school',[MainController::class,'healthy_ev_school'])->na
 
 Auth::routes();
 Route::get('dashboard',[AdminController::class, 'dash'])->name('dashboard');
+Route::get('addUser',[AdminController::class, 'addUser'])->name('addUser');
 Route::resource('adminnews', NewsController::class);
 Route::resource('adminevent', EventController::class);

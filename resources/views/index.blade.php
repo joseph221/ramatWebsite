@@ -340,17 +340,17 @@
             </div>
         </div>
     </div>
-    <div class="wedo" id="wedo">
+    <div class="wedo">
         <center><h4 style="color: rgb(162,216,35)">What We Do</h4></center>
         <section class="prog-section pt-2">
             <div class="row p-5">
-              <div class="col-3 bottom-waste w-100">
+              <div class="col bottom-waste">
                 
               </div>
-              <div class="col-3 top-waste">
+              <div class="col top-waste">
                
               </div>
-              <div class="col-5">
+              <div class="col-md-6">
                 <h3>WASTE MANAGEMENT</h3>
               <P>Waste management or waste disposal includes the processes and actions required to manage waste from its inception to its final disposal.This includes the collection, transport, treatment and disposal of waste, together with monitoring and regulation of the waste management process and waste-related laws, technologies, economic mechanisms.Waste can be solid, liquid, or gases and each type has different methods of disposal and management. Waste management deals with all types of waste, including industrial, biological, household, municipal, organic, biomedical, radioactive wastes. We (RAMAT) are intended to reduce adverse effects of waste on human health, the environment, planetary resources and aesthetics. <a href="{{ route('waste') }}" style="font-size: 50px; font-weight:300; border:none"> &#8594;</a> </P>
               </div>
@@ -358,24 +358,24 @@
         </section>
         <section class="prog-section pt-5">
             <div class="row p-5">
-              <div class="col-5">
+              <div class="col-md-6">
                 <h3>WOMEN EMPOWERMENT IN TOURISM AND PROTECTED AREAS</h3>
               <P>United Nations has defined empowerment as a very critical aspect of gender equality and defines both issues as “Gender equality implies a society in which women and men enjoy the same opportunities, outcomes, rights, and obligation in all spheres of life.</P>
               <p>Tourism is one of the growing industry that has an impact on lower as a well higher group of society. Tourism has been seen as one of the tools that can contribute in the women empowerment. Tourism has a strength of improving the lifestyle of people by eliminating poverty, ensuring and improving environmental sustainability and promoting gender equality and empowering women. It is a bit of sadness to say, but in the modern of today, there still is no place where women are treated as same as men be it political, social or economic issue. The gender gap has influenced the world as a whole, and tourism can be one of many tools to put control over this all. <a href="{{ route('women_empower') }}" style="font-size: 50px; font-weight:300; border:none"> &#8594;</a></p>
               </div>
-              <div class="col-3 bottom-women w-100">
+              <div class="col bottom-women">
                 
               </div>
-              <div class="col-3 top-women">
+              <div class="col top-women">
                
               </div>
             </div>
         </section>
         <section class="prog-section pt-5">
             <div class="row p-5">
-              <div class="col-3 bottom-young w-100 fit"></div>
-              <div class="col-3 top-young"></div>
-              <div class="col-5">
+              <div class="col bottom-young"></div>
+              <div class="col top-young"></div>
+              <div class="col-md-6">
                 <h3>YOUNG GENERATION IN TOURISM AND CONSERVATION</h3>
               <P>Access to education for girls is often fraught with difficulties. Families force girls into domestic roles. Schools lack proper hygiene provision, especially for menstrual cycles. And long distances pose high risks of abuse from bus drivers, shopkeepers, and other adults. Tanzania Development Trust funds programs that discourage unwarranted male aggression, reduce burdens of domestic work, and increase opportunities for activities. <a href="{{ route('young_generation') }}" style="font-size: 50px; font-weight:300; border:none"> &#8594;</a></P>
               </div>
@@ -383,53 +383,19 @@
         </section>
         <section class="prog-section pt-5">
             <div class="row p-5">
-              <div class="col-5">
+              <div class="col-md-6">
                 <h3>HEALTHY ENVIRONMENT IN SCHOOL</h3>
               <P>Access to education for girls is often fraught with difficulties. Families force girls into domestic roles. Schools lack proper hygiene provision, especially for menstrual cycles. And long distances pose high risks of abuse from bus drivers, shopkeepers, and other adults. Tanzania Development Trust funds programs that discourage unwarranted male aggression, reduce burdens of domestic work, and increase opportunities for activities. <a href="{{ route('healthy_ev_school') }}" style="font-size: 50px; font-weight:300; border:none"> &#8594;</a></P>
               </div>
-              <div class="col-3 bottom-health w-100">
+              <div class="col bottom-health">
                
               </div>
-              <div class="col-3 top-health">
+              <div class="col top-health">
                
               </div>
             </div>
         </section>
     </div>
-
-    <section>
-        <center><h4 style="color: rgb(162,216,35)">Patner With Us</h4></center>
-        <div class="container p-5">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="imgP">
-                        <a href="https://cordstanzania.org/">
-                            <img src="{{ asset('assets/images/CORD.png') }}" height="200" width="400" alt="" srcset="">
-                        </a>
-                       
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="imgP">
-                        <a href="https://aylftanzania.org/">
-                            <img src="{{ asset('assets/images/AYLF-Tanzania-Logo.jpg') }}" alt="" srcset="">
-                        </a>
-                        
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="imgP">
-                        <a href="https://cordstanzania.org/">
-                            <img src="{{ asset('assets/images/CORD.png') }}" height="200" width="400" alt="" srcset="">
-                        </a>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-      
-    </section>
 @endsection
 
    

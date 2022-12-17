@@ -25,7 +25,7 @@ class MainController extends Controller
         return view('gallary');
     }
     public function news(){
-        $news = News::all();
+        $news = News::paginate(5);
         return view('News')->with('news',$news);
     }
     public function waste_manage(){

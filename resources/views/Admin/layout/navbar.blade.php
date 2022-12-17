@@ -33,8 +33,6 @@
    <!-- bootstrap wysihtml5 - text editor -->
    <link rel="stylesheet" href="{{ asset('assetss/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
    <link rel="stylesheet" href="{{ asset('assetss/plugins/ijaboCropTool/ijaboCropTool.min.css') }}">
-
-
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -257,7 +255,19 @@
         <li class="header">MAIN NAVIGATION</li>
 
         <li><a href="{{ route('dashboard') }}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-        <li><a href="#"><i class="fa fa-cube"></i> <span>Users</span></a></li>
+        <li class="treeview">
+          <a href="{{ route('register') }}">
+            <i class="fa fa-files-o"></i>
+            <span>Users</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ route('addUser') }}"><i class="fa fa-circle-o"></i> Add User</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> View Users</a></li>
+          </ul>
+        </li>
         <li><a href="{{ route('adminnews.index') }}"><i class="fa fa-cubes"></i> <span>News</span></a></li>
         <li><a href="{{ route('adminevent.index') }}"><i class="fa fa-users"></i> <span>Events</span></a></li>
         {{-- <li class="treeview">

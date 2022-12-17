@@ -14,7 +14,7 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $news = News::all();
+        $news = News::paginate(5);
         return view('Admin.news')->with('news',$news);
     }
 
